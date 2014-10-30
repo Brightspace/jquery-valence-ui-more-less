@@ -19,7 +19,7 @@ gulp.task( 'css', function () {
 		'moreLess.css',
 		{
 			'lintOpts' : '.csslintrc',
-			'paths' : [ './', './node_modules/vui-link/' ]
+			'paths' : [ './node_modules/vui-link/' ]
 		}
 	);
 } );
