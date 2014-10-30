@@ -17,7 +17,10 @@ gulp.task( 'css', function () {
 	return vui.makeCss(
 		'moreLess.css.less',
 		'moreLess.css',
-		{ 'lintOpts' : '.csslintrc' }
+		{
+			'lintOpts' : '.csslintrc',
+			'paths' : [ './', './node_modules/vui-link/' ]
+		}
 	);
 } );
 
